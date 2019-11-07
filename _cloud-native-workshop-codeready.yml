@@ -21,11 +21,11 @@ vars:
   INVENTORY_ROUTE_HOST: INVENTORY-ROUTE-HOST
   CATALOG_ROUTE_HOST: CATALOG-ROUTE-HOST
   API_GATEWAY_ROUTE_HOST: API-GATEWAY-ROUTE-HOST
-  CODEREADY_WORKSPACES_URL: http://codeready-lab-infra.paris-f9ef.open.redhat.com
-  GIT_URL: http://gogs-lab-infra.paris-f9ef.open.redhat.com
+  CODEREADY_WORKSPACES_URL: http://codeready-lab-infra.apps.paris-f9ef.open.redhat.com
+  GIT_URL: http://gogs-lab-infra.apps.paris-f9ef.open.redhat.com
   NEXUS_URL: http://nexus.lab-infra.svc:8081/repository/maven-all-public
-  KIALI_URL: http://kiali-infra.paris-f9ef.open.redhat.com
-  JAEGER_URL: https://jaeger-query-istio-system.paris-f9ef.open.redhat.com
+  KIALI_URL: http://kiali-infra.apps.paris-f9ef.open.redhat.com
+  JAEGER_URL: https://jaeger-query-istio-system.apps.paris-f9ef.open.redhat.com
   
 modules:
   activate:
