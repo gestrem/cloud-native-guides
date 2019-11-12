@@ -83,7 +83,7 @@ The projects are imported now into your workspace and is visible in the project 
 CodeReady Workspaces is a full featured IDE and provides language specific capabilities for various project types. In order to 
 enable these capabilities, let's convert the imported project skeletons to Maven projects. 
 
-In the Project Explorer, `*right-click on 'catalog-spring-boot'*` then, `*click on 'Convert to Project'*`.
+In the Project Explorer, `*right-click on 'inventory-thorntail'*` then, `*click on 'Convert to Project'*`.
 
 image:{% image_path codeready-convert.png %}[CodeReady Workspaces - Convert to Project,500]
 
@@ -91,11 +91,7 @@ image:{% image_path codeready-convert.png %}[CodeReady Workspaces - Convert to P
 
 image:{% image_path codeready-maven.png %}[CodeReady Workspaces - Convert to Project,500]
 
-[WARNING]
-.Project Conversion
-====
-Repeat the above for **inventory-thorntail** and **gateway-vertx** projects.
-====
+
 
 [IMPORTANT]
 .Terminal Window of CodeReady Workspaces
